@@ -4,7 +4,7 @@ This is a program for add event to Tehlug website
 
 
 Data:
-
+```
 CURRENT_DATE: 2024-02-10T00:00:00+03:30  (Auto generate)
 EVENT_DATE format: 1402-11-26 (User input)
 START_TIME: 16:00   (User input)
@@ -32,8 +32,10 @@ DESCRIPTION: is description of event like it:    (User input)
 از ساعت ۱۹:۱۰ الی ۱۹:۴۰ : لاگ: ارائه «Elastic Stack» توسط سعید رسولی
 از ساعت ۱۹:۴۰ الی ۲۰:۰۰ : لاگ: ارائه «معرفی افزونه‌های کاربردی گنوم» توسط سینا جعفری
 از ساعت ۲۰:۰۰ الی ۲۰:۳۰ : پذیرایی و نتورکینگ
+```
 
 Template:
+```
 ---
 title: \"{{ .EVENT_TITLE}}\"
 date: {{ .CURRENT_DATE }}
@@ -53,3 +55,4 @@ locations: {{ .LOCATION }}
 ---
 
 {{ .DESCRIPTION }}
+```
